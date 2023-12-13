@@ -1,0 +1,174 @@
+.container{
+   align-items: center;
+   flex-direction: column;
+    background-color: #07C4FE;
+    display: inline-flex;
+    width: 300px;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 3px 3px 3px 2px rgb(15, 23, 68);
+    margin-top: 8px;
+    
+    
+}
+.area{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+   
+ 
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-image:url("../images/calculador.jpg");
+    
+}
+
+h2{
+   align-items: center;
+   font: normal 15px arial black;
+   color: rgb(34, 33, 33);
+    
+
+}
+h1{
+    font: normal 24px arial black;
+    box-shadow: 0.8px 0.8px 2px 2px black;
+    margin-top:10px;
+    color: rgb(34, 33, 33);
+    
+    
+    
+
+
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-around;
+    height: 30px;
+    color: rgb(34, 33, 33);
+    
+    
+
+}
+button{
+    background-color: #F2E96B;
+    width: 149px;
+    height: 2em;
+   
+   margin-top: 5px;
+   border-radius: 0.5em;
+   font: normal 12px arial black;
+   box-shadow: 2px 2px 2px black;
+}
+
+button:hover{
+   cursor: pointer;
+  
+}
+textarea{
+    width: 296px;
+    border-radius: 0.4em;
+    margin-top: 15px;
+    font: normal 15px arial;
+    background-color: #e6e0ce;
+
+    
+} 
+.resultado{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 26px;
+    margin-top: 1px;
+    background-color: #e6e0ce;
+    
+   
+
+}
+
+.escolha{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  
+
+ 
+}
+.sexo{
+    width: 60px;
+    height: 20px;
+    background-color: #e6e0ce;
+    border: none;
+
+}
+input{
+    width: 183px;
+    height: 20px;
+    border-radius: 0.4em;
+}
+
+    .imc,.peso{
+        margin: 0 32px;
+        display: inline-block;
+        font: normal 16px arial black;
+        color: rgb(34, 33, 33);
+    
+        
+    
+    }
+    .classificacao{
+        margin-top: 15px;
+        margin-left: 11px;
+        font: normal 13px arial;
+      
+    
+    }
+    .classificacao1{
+        margin: 0 5px;
+        margin-right: 2px;
+        font: normal 13px arial;
+    }
+    .classificacao2{
+        margin: 0 5px;
+        margin-left: 26px;
+        font: normal 13px arial;
+    }
+    .classificacao3{
+        margin-top: 15px;
+        margin-left: 30px;
+        font: normal 13px arial;
+    
+    }
+    .al{
+        margin-bottom: 20px;
+    }
+
+
+.pesoIMC{
+
+    width: 100%;
+    background-color: #137b9b;
+    height: 1px;
+    padding-bottom: 28px;
+    padding-top: 5px;
+    margin-top: 11px;
+}
+footer{
+    height: 20px;
+   
+}
+.footer{
+    font: normal 12px arial;
+}
+.input{
+    background-color: #e6e0ce;
+}

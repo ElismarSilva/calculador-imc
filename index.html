@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+       
+        <h1>Calculadora-IMC</h1>
+
+        <div class="escolha">
+            <h2>Sexo:</h2>
+           <button id="homem" class="sexo" onclick="selectHomem()">Homem</button>
+           <button id="mulher" class="sexo" onclick="selectMulher()">Mulher</button>
+        </div>
+        <div class="area">
+            <h2>Nome:</h2>
+            <input class="input" id="name" type="text" placeholder="Digite seu nome">
+        </div>
+        <div class="area">
+            <h2>Altura:</h2>
+            <input class="input" id="altura" type="Number" placeholder="Ex: 163">
+        </div>
+        <div class="area">
+            <h2>Peso:</h2>
+            <input class="input" id="peso" type="number" placeholder="Ex: 63" >
+        </div>
+        <div class="button">
+            <button  onclick="botaoCal()">Calcular</button>
+            <button  onclick="botaoClean()">Limpar</button>
+        </div>
+      <div class="area_texto">
+          <textarea id="texto" name="" id="" rows="3"></textarea>
+          
+      </div>
+      <div class="pesoIMC">
+        <p class="imc">IMC</p>
+        <p class="peso">PESO</p>
+        
+    </div>
+      <div id="resultado" class="resultado">
+          <p  class="classificacao"> < 18.5  <br>  </p>
+          <p class="classificacao"> &ensp; &ensp; &ensp; < 58 Kg </p>
+          <p class="classificacao"> &ensp;&ensp;Magresa</p>
+      </div>
+      <div id="resultado1" class="resultado">
+        <p class="classificacao1"> 18.5 a 24.9 </p>
+        <p class="classificacao1">58 a 78 Kg </p>
+        <p class="classificacao1">Normal</p>
+    </div>
+    <div id="resultado2" class="resultado">
+        <p class="classificacao2"> 24.9 a 30 </p>
+        <p class="classificacao2">78 a 94 Kg </p>
+        <p class="classificacao2">Sobrepeso</p>
+    </div>
+    <div id="resultado3" class="resultado">
+        <p class="classificacao3"> >30.0 &ensp; &ensp;&ensp; </p>
+        <p class="classificacao3"> >94 Kg </p>
+        <p class="classificacao3">Obesidade</p>
+    </div>
+
+        <footer>
+            <p class="footer"> &copy; Elismar Silva || todos os direitos reservados.</p>
+        </footer>
+
+    </div>
+        </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
